@@ -141,6 +141,9 @@ app.delete('/user/:id',async (req,res)=>{
       }
  });
 
+// image upload api 
+
+
 //start server
 
 app.listen(PORT,()=>{console.log('Server_running ');
